@@ -4,7 +4,7 @@ import image from "../TTRUONG-black.png";
 const Header = () => {
   return (
     <header className="shadow-md p-2 mb-8">
-      <div className=" max-w-screen-lg container mx-auto flex justify-between items-center">
+      <div className=" max-w-screen-xlnpm container mx-auto flex justify-between items-center">
         <a href="/">
           <img
             src={image}

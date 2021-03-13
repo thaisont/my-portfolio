@@ -2,6 +2,9 @@ import Header from "./components/Header";
 import Banner from "./components/Banner";
 import About from "./components/About";
 import Projects from "./components/Projects";
+import Blogs from "./components/Blogs";
+import Contact from "./components/ContactMe";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -10,6 +13,9 @@ function App() {
       <Banner />
       <About />
       <Projects />
+      <Blogs />
+      <Contact />
+      <Footer />
     </div>
   );
 }
