@@ -1,9 +1,7 @@
 function Blogs() {
   return (
     <section className="text-center bg-primary mb-16">
-      <h2 className="text-3xl font-bold p-6 text-secondary text-white">
-        Blogs
-      </h2>
+      <h2 className="text-3xl font-bold p-6 text-white">Blogs</h2>
       <p className="mb-8 text-white">Below are a few blog posts</p>
       <div className="box-layout flex max-w-3xl m-auto gap-x-8 pb-4">
         <div className="box shadow rounded-md bg-white p-8 border border-gray-100 mb-8">

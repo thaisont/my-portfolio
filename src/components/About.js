@@ -12,7 +12,7 @@ function About() {
           working in Agile, Github, SASS.
         </p>
       </section>
-      <section className=" max-w-3xl relative -inset-y-12 m-auto mb-6 ">
+      <section className=" max-w-3xl relative -inset-y-12 m-auto mb-6 container ">
         <div className="flex justify-around shadow-lg pb-4 bg-white  rounded-lg">
           <div className=" p-2 flex flex-col pb-4  ">
             <h3 className="text-xl font-bold text-secondary py-8 pb-4">

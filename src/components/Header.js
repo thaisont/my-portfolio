@@ -17,7 +17,10 @@ const Header = () => {
             <a href="/" className="hover:text-blue-900 tracking-wide">
               <li>About me</li>
             </a>
-            <a href="/" className="hover:text-blue-900 tracking-wide">
+            <a
+              href="#personalProjects"
+              className="hover:text-blue-900 tracking-wide"
+            >
               <li>Projects</li>
             </a>
             <a href="/" className="hover:text-blue-900 tracking-wide">

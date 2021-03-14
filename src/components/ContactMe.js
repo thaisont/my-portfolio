@@ -6,7 +6,7 @@ function Contact() {
         If you're hiring for a Frontend role, or have any questions, please
         don't hesitate to reach out!
       </p>
-      <button className="py-2 px-16 bg-primary rounded-md text-white">
+      <button className="py-2 px-16 bg-primary rounded-md text-white hover:bg-green-700 transition ease-in">
         View CV
       </button>
     </section>

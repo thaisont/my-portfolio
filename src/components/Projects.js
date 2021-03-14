@@ -1,18 +1,52 @@
 import shortly from "../logo.svg";
 import inn from "../logo_INN.jpg";
 import image from "../TTRUONG-black.png";
+import Card from "../utilities/Card";
 
-function Projects() {
+const Projects = () => {
   return (
     <section className="text-center pb-16  ">
-      <h2 className="text-3xl font-bold p-6 text-secondary">
+      <h2
+        id="personalProjects"
+        className=" text-3xl font-bold p-6 text-secondary"
+      >
         Personal projects
       </h2>
       <p className="mb-8 text-tertiary">
         Below are a few projects I've worked on
       </p>
-      <div className="box-layout flex max-w-3xl m-auto gap-x-8 pb-4">
-        <div className="box shadow rounded-md bg-white p-8 border border-gray-100 flex-1">
+      <div className="container max-w-screen-md ">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+          <Card link="https://kind-mcnulty-cfb64c.netlify.app/">
+            <p className="py-2 text-tertiary">
+              A games review website using a
+              <a href="https://rawg.io/apidocs"> video games database API</a>{" "}
+              and Google Maps API to display the location.
+            </p>
+          </Card>
+          <Card link="https://thaisont.github.io/URL-API/">
+            <p className="py-2 text-tertiary">
+              A URL shortening API landing page, using the{" "}
+              <a href="https://app.shrtco.de/"> shrtcode API</a>. This site was
+              built using SCSS, HTML and Javascript.
+            </p>
+          </Card>
+          <Card>
+            <p className="py-2 text-tertiary">
+              I wanted to build my skills in React and Tailwind. Therefore I
+              decided to build my portfolio website using the specific langauge.
+            </p>
+          </Card>
+          <Card>
+            <p className="py-2 text-tertiary">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </Card>
+        </div>
+      </div>
+      <div>
+        {/* <div className="box shadow rounded-md bg-white p-8 border border-gray-100 flex-1">
           <img src={inn} alt="Logo of Inn" className="w-3/12 m-auto" />
           <p className="py-2 text-tertiary">
             A games review website using a
@@ -24,9 +58,9 @@ function Projects() {
               Live site
             </button>
           </a>
-        </div>
+        </div> */}
 
-        <div className="box shadow rounded bg-white p-8 border border-gray-100 flex-1">
+        {/* <div className="box shadow rounded bg-white p-8 border border-gray-100 flex-1">
           <img
             src={shortly}
             alt="Logo of Shortly"
@@ -43,9 +77,9 @@ function Projects() {
             </button>
           </a>
         </div>
-      </div>
+      </div> */}
 
-      <div className="flex max-w-3xl m-auto gap-x-8 ">
+        {/* <div className="flex max-w-3xl m-auto gap-x-8 ">
         <div className="box shadow rounded-md bg-white p-8 border border-gray-100 flex-1">
           <img
             src={image}
@@ -61,19 +95,19 @@ function Projects() {
               Live site
             </button>
           </a>
-        </div>
+        </div> */}
 
-        <div className="shadow rounded bg-white p-8 border border-gray-100 flex-1">
+        {/* <div className="shadow rounded bg-white p-8 border border-gray-100 flex-1">
           <h3 className="py-2 text-primary">Weather forecast app</h3>
           <p className="py-2 text-tertiary">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua.
           </p>
           <button>Live site</button>
-        </div>
+        </div> */}
       </div>
     </section>
   );
-}
+};
 
 export default Projects;
