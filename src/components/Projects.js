@@ -1,5 +1,6 @@
 import shortly from "../logo.svg";
 import inn from "../logo_INN.jpg";
+import image from "../TTRUONG-black.png";
 
 function Projects() {
   return (
@@ -11,41 +12,59 @@ function Projects() {
         Below are a few projects I've worked on
       </p>
       <div className="box-layout flex max-w-3xl m-auto gap-x-8 pb-4">
-        <div className="box shadow rounded-md bg-white p-8 border border-gray-100">
-          <img src={inn} alt="Logo of Shortly" className="max-w-xs m-auto" />
+        <div className="box shadow rounded-md bg-white p-8 border border-gray-100 flex-1">
+          <img src={inn} alt="Logo of Inn" className="w-3/12 m-auto" />
           <p className="py-2 text-tertiary">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            A games review website using a
+            <a href="https://rawg.io/apidocs"> video games database API</a> and
+            Google Maps API to display the location.
           </p>
-          <button>Live site</button>
+          <a href="https://kind-mcnulty-cfb64c.netlify.app/">
+            <button className="py-2 px-8 bg-primary rounded-md text-white hover:bg-green-700 transition ease-in">
+              Live site
+            </button>
+          </a>
         </div>
 
-        <div className="box shadow rounded bg-white p-8 border border-gray-100">
+        <div className="box shadow rounded bg-white p-8 border border-gray-100 flex-1">
           <img
             src={shortly}
             alt="Logo of Shortly"
             className="w-auto h-8 cursor-pointer m-auto"
           />
           <p className="py-2 text-tertiary">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            A URL shortening API landing page, using the{" "}
+            <a href="https://app.shrtco.de/"> shrtcode API</a>. This site was
+            built using SCSS, HTML and Javascript.
           </p>
-          <button>Live site</button>
+          <a href="https://thaisont.github.io/URL-API/">
+            <button className="py-2 px-8 bg-primary rounded-md text-white hover:bg-green-700 transition ease-in">
+              Live site
+            </button>
+          </a>
         </div>
       </div>
 
       <div className="flex max-w-3xl m-auto gap-x-8 ">
-        <div className="box shadow rounded-md bg-white p-8 border border-gray-100">
-          <h3 className="py-2 text-primary">Shortly</h3>
+        <div className="box shadow rounded-md bg-white p-8 border border-gray-100 flex-1">
+          <img
+            src={image}
+            alt="Logo of TTRUONG"
+            className="w-auto h-8 cursor-pointer m-auto"
+          />
           <p className="py-2 text-tertiary">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            I wanted to build my skills in React and Tailwind. Therefore I
+            decided to build my portfolio website using the specific langauge.
           </p>
-          <button>Live site</button>
+          <a href="/">
+            <button className="py-2 px-8 bg-primary rounded-md text-white hover:bg-green-700 transition ease-in">
+              Live site
+            </button>
+          </a>
         </div>
 
-        <div className="shadow rounded bg-white p-8 border border-gray-100">
-          <h3 className="py-2 text-primary">Shortly</h3>
+        <div className="shadow rounded bg-white p-8 border border-gray-100 flex-1">
+          <h3 className="py-2 text-primary">Weather forecast app</h3>
           <p className="py-2 text-tertiary">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua.
