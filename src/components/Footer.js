@@ -14,7 +14,7 @@ function Footer() {
           style={{ height: 35, width: 35 }}
         />
         <SocialIcon
-          url="https://www.linkedin.com/in/thaisontruong/"
+          url="mailto:sontruong@hotmail.co.uk"
           className="mr-2"
           target="_blank"
           fgColor="#fff"
@@ -22,7 +22,7 @@ function Footer() {
           style={{ height: 35, width: 35 }}
         />
         <SocialIcon
-          url="sontruong@hotmail.co.uk"
+          url="https://www.linkedin.com/in/thaisontruong/"
           className="mr-2"
           target="_blank"
           fgColor="#fff"
@@ -32,7 +32,7 @@ function Footer() {
       </div>
       <div className="text-secondary text-center py-4">
         {" "}
-        &copy; 2021 by Thai Truong
+        &copy; 2021 Thai Truong
       </div>
     </footer>
   );

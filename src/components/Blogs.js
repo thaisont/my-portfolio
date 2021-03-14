@@ -1,6 +1,6 @@
 function Blogs() {
   return (
-    <section className="text-center bg-primary mb-24">
+    <section className="text-center bg-primary mb-16">
       <h2 className="text-3xl font-bold p-6 text-secondary text-white">
         Blogs
       </h2>
