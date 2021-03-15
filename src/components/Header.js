@@ -14,7 +14,7 @@ const Header = () => {
         </a>
         <nav>
           <ul className="flex gap-4 py-4">
-            <a href="/" className="hover:text-blue-900 tracking-wide">
+            <a href="#aboutMe" className="hover:text-blue-900 tracking-wide">
               <li>About me</li>
             </a>
             <a
@@ -23,10 +23,10 @@ const Header = () => {
             >
               <li>Projects</li>
             </a>
-            <a href="/" className="hover:text-blue-900 tracking-wide">
+            <a href="#blogs" className="hover:text-blue-900 tracking-wide">
               <li>Blogs</li>
             </a>
-            <a href="/" className="hover:text-blue-900 tracking-wide">
+            <a href="#contactMe" className="hover:text-blue-900 tracking-wide">
               <li>Contact me</li>
             </a>
           </ul>

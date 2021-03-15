@@ -1,6 +1,6 @@
 import shortly from "../logo.svg";
 import inn from "../logo_INN.jpg";
-import image from "../TTRUONG-black.png";
+import ttruong from "../TTRUONG-black.png";
 import Card from "../utilities/Card";
 
 const Projects = () => {
@@ -17,21 +17,21 @@ const Projects = () => {
       </p>
       <div className="container max-w-screen-md ">
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-          <Card link="https://kind-mcnulty-cfb64c.netlify.app/">
+          <Card link="https://kind-mcnulty-cfb64c.netlify.app/" img={inn}>
             <p className="py-2 text-tertiary">
               A games review website using a
               <a href="https://rawg.io/apidocs"> video games database API</a>{" "}
               and Google Maps API to display the location.
             </p>
           </Card>
-          <Card link="https://thaisont.github.io/URL-API/">
+          <Card link="https://thaisont.github.io/URL-API/" img={shortly}>
             <p className="py-2 text-tertiary">
-              A URL shortening API landing page, using the{" "}
+              A URL shortening API landing page, using the
               <a href="https://app.shrtco.de/"> shrtcode API</a>. This site was
               built using SCSS, HTML and Javascript.
             </p>
           </Card>
-          <Card>
+          <Card link="/" img={ttruong}>
             <p className="py-2 text-tertiary">
               I wanted to build my skills in React and Tailwind. Therefore I
               decided to build my portfolio website using the specific langauge.

@@ -1,8 +1,8 @@
 function About() {
   return (
-    <main>
+    <div>
       <section className="bg-primary p-6  text-center py-28">
-        <h2 className="py-2 text-3xl font-bold text-white">
+        <h2 id="aboutMe" className="py-2 text-3xl font-bold text-white">
           Welcome to my website
         </h2>
         <p className="w-3/6 m-auto py-2 text-white ">
@@ -41,7 +41,7 @@ function About() {
           </div>
         </div>
       </section>
-    </main>
+    </div>
   );
 }
 
