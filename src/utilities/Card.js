@@ -1,7 +1,7 @@
 import React from "react";
 import inn from "../logo_INN.jpg";
 
-const Card = ({ children, link, img }) => {
+const Card = ({ children, link, img, button }) => {
   //
   return (
     <div className="box shadow rounded-md bg-white p-8 border border-gray-100 flex-1">

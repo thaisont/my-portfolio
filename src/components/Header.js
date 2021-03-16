@@ -1,6 +1,5 @@
 import React from "react";
 import image from "../TTRUONG-black.png";
-
 const Header = () => {
   return (
     <header className="shadow-md p-2 mb-8">

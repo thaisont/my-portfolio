@@ -7,7 +7,7 @@ function Footer() {
       <div className="flex p-4 justify-center">
         <SocialIcon
           url="https://github.com/thaisont"
-          className="mr-2"
+          className="mr-2 transition duration-400 ease-in transform hover:-translate-y-1 hover:scale-110"
           target="_blank"
           fgColor="#fff"
           bgColor="#506370"
@@ -15,7 +15,7 @@ function Footer() {
         />
         <SocialIcon
           url="mailto:sontruong@hotmail.co.uk"
-          className="mr-2"
+          className="mr-2 transition duration-400 ease-in transform hover:-translate-y-1 hover:scale-110"
           target="_blank"
           fgColor="#fff"
           bgColor="#506370"
@@ -23,7 +23,7 @@ function Footer() {
         />
         <SocialIcon
           url="https://www.linkedin.com/in/thaisontruong/"
-          className="mr-2"
+          className="mr-2 transition duration-400 ease-in transform hover:-translate-y-1 hover:scale-110"
           target="_blank"
           fgColor="#fff"
           bgColor="#506370"

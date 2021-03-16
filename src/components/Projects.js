@@ -33,11 +33,13 @@ const Projects = () => {
           </Card>
           <Card link="/" img={ttruong}>
             <p className="py-2 text-tertiary">
-              I wanted to build my skills in React and Tailwind. Therefore I
-              decided to build my portfolio website using the specific langauge.
+              I wanted to build my skills in React and style with Tailwind CSS.
+              Therefore I decided to build my portfolio website using the
+              specific langauge.
             </p>
           </Card>
-          <Card>
+          <Card link="https://zen-goodall-6f75bd.netlify.app/">
+            <h2>Weather App</h2>
             <p className="py-2 text-tertiary">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua.
