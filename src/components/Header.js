@@ -12,7 +12,7 @@ const Header = () => {
           />
         </a>
         <nav>
-          <ul className="flex gap-4 py-4">
+          <ul className="invisible flex gap-4 py-4 md:visible">
             <a href="#aboutMe" className="hover:text-blue-900 tracking-wide">
               <li>About me</li>
             </a>
@@ -23,7 +23,7 @@ const Header = () => {
               <li>Projects</li>
             </a>
             <a href="#blogs" className="hover:text-blue-900 tracking-wide">
-              <li>Blogs</li>
+              <li>Blog</li>
             </a>
             <a href="#contactMe" className="hover:text-blue-900 tracking-wide">
               <li>Contact me</li>

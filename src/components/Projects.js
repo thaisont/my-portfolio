@@ -20,31 +20,59 @@ const Projects = () => {
           <Card link="https://kind-mcnulty-cfb64c.netlify.app/" img={inn}>
             <p className="py-2 text-tertiary">
               A games review website using a
-              <a href="https://rawg.io/apidocs"> video games database API</a>{" "}
+              <a
+                className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600"
+                href="https://rawg.io/apidocs"
+              >
+                {" "}
+                video games database API
+              </a>{" "}
               and Google Maps API to display the location.
             </p>
           </Card>
           <Card link="https://thaisont.github.io/URL-API/" img={shortly}>
             <p className="py-2 text-tertiary">
               A URL shortening API landing page, using the
-              <a href="https://app.shrtco.de/"> shrtcode API</a>. This site was
-              built using SCSS, HTML and Javascript.
+              <a
+                className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600"
+                href="https://app.shrtco.de/"
+              >
+                {" "}
+                shrtcode API
+              </a>
+              . This site was built using SCSS, HTML and Javascript.
             </p>
           </Card>
           <Card link="/" img={ttruong}>
             <p className="py-2 text-tertiary">
-              I wanted to build my skills in React and style with Tailwind CSS.
-              Therefore I decided to build my portfolio website using the
-              specific langauge.
+              My personal portfolio website built using React and styled with
+              Tailwind CSS.
             </p>
           </Card>
-          <Card link="https://zen-goodall-6f75bd.netlify.app/">
-            <h2>Weather App</h2>
+          <div className="box shadow rounded-md bg-white p-8 border border-gray-100 flex-1">
+            <h2 className="text-2xl text-gray-800 font-medium">Weather app</h2>
             <p className="py-2 text-tertiary">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              A weather app page that gives you the weather of a location. This
+              was built using the{" "}
+              <a
+                className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600"
+                href="https://developer.accuweather.com/apis"
+              >
+                {" "}
+                accuweather API
+              </a>
+              .
             </p>
-          </Card>
+            <a
+              href="https://zen-goodall-6f75bd.netlify.app/"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <button className="py-2 px-8 bg-primary rounded-md text-white hover:bg-green-700 transition ease-in">
+                Live site
+              </button>
+            </a>
+          </div>
         </div>
       </div>
       <div>

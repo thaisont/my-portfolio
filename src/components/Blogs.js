@@ -19,7 +19,7 @@ function Blogs() {
             href="https://ttruong.hashnode.dev/front-end-accessibility"
             target="_blank"
           >
-            <div className="flex text-left shadow rounded-md bg-white p-8 border border-gray-100 mb-8">
+            <div className="text-left shadow rounded-md bg-white p-8 border border-gray-100 mb-8 md:flex">
               <div className="flex flex-col pr-4">
                 <h3 className="py-2  text-primary text-xl">
                   Front-end accessibility
@@ -38,7 +38,7 @@ function Blogs() {
               <img
                 src={accessbile}
                 alt="Text displaying accessbility with a yellow background"
-                className="w-1/2 rounded-sm px-2 "
+                className="max-w-full rounded-sm  md:w-1/2 md:px-2 py-2  "
               />
             </div>
           </a>
@@ -51,7 +51,7 @@ function Blogs() {
             href="https://ttruong.hashnode.dev/self-taught-developer-journey"
             target="_blank"
           >
-            <div className="flex text-left shadow rounded-md bg-white p-8 border border-gray-100 mb-8">
+            <div className=" text-left shadow rounded-md bg-white p-8 border border-gray-100 mb-8 md:flex">
               <div className="flex flex-col pr-4">
                 <h3 className="py-2  text-primary text-xl">
                   Self-taught developer journey
@@ -70,7 +70,7 @@ function Blogs() {
               <img
                 src={journey}
                 alt="Text displaying accessbility with a yellow background"
-                className="w-1/2 rounded-sm px-2 "
+                className="max-w-full rounded-sm  md:w-1/2 md:px-2 py-2 "
               />
             </div>
           </a>
