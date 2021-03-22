@@ -32,14 +32,33 @@ const Header = () => {
 
   if (showMenu) {
     menu = (
-      <div className="fixed top-0 left-0 w-4/5 h-full z-50 bg-white shadow">
-        The menu
+      <div className="absolute top-16 right-0 w-full h-1/5 z-50 bg-white shadow">
+        <ul className="text-base flex flex-col items-center p-4 gap-4 ">
+          <a href="#aboutMe">
+            <button className="hover:text-blue-900 tracking-wide">
+              About me
+            </button>
+          </a>
+          <a href="#personalProjects">
+            <button className="hover:text-blue-900 tracking-wide">
+              Project
+            </button>
+          </a>
+          <a href="#blogs">
+            <button className="hover:text-blue-900 tracking-wide">Blog</button>
+          </a>
+          <a href="#contactMe">
+            <button className="hover:text-blue-900 tracking-wide">
+              Contact me
+            </button>
+          </a>
+        </ul>
       </div>
     );
   }
 
   return (
-    <header className="shadow-md p-2 mb-8">
+    <header className="shadow-md p-4 mb-8">
       <div className=" max-w-screen-xlnpm container mx-auto flex justify-between items-center">
         <a href="/">
           <img
@@ -50,7 +69,7 @@ const Header = () => {
         </a>
 
         <nav>
-          <ul className="flex gap-4 py-4 invisible md:visible  ">
+          <ul className="hidden md:flex gap-4    ">
             <button
               className="hover:text-blue-900 tracking-wide"
               onClick={handleAboutClick}
@@ -78,11 +97,13 @@ const Header = () => {
             </button>
           </ul>
         </nav>
-        <div className=" flex text-2xl md:hidden cursor-pointer">
+        <div className=" flex text-2xl md:hidden ">
           <FontAwesomeIcon
+            className="cursor-pointer"
             icon={faBars}
             onClick={() => setShowMenu(!showMenu)}
           />
+
           {menu}
         </div>
       </div>

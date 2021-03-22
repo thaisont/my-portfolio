@@ -19,6 +19,7 @@ module.exports = {
       primary: "#069",
       secondary: "#343a40",
       tertiary: "#506370",
+      t_gray: "rgba(232, 232, 232, 0.5)",
 
       pink: {
         50: "#fdf2f8",
@@ -144,6 +145,7 @@ module.exports = {
       12: "3rem",
       14: "3.5rem",
       16: "4rem",
+      17: "4.5rem",
       20: "5rem",
       24: "6rem",
       28: "7rem",
@@ -450,6 +452,7 @@ module.exports = {
     height: (theme) => ({
       auto: "auto",
       ...theme("spacing"),
+
       "1/2": "50%",
       "1/3": "33.333333%",
       "2/3": "66.666667%",
