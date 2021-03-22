@@ -1,11 +1,11 @@
 function About() {
   return (
     <div>
-      <section className="bg-primary p-6  text-center py-28">
+      <section className="bg-primary p-6  text-center py-24 px-20 md:px-32 lg:px-72 xl:px-80">
         <h2 id="aboutMe" className="py-2 text-3xl font-bold text-white">
           Welcome to my website
         </h2>
-        <p className="w-3/6 m-auto py-2 text-white ">
+        <p className=" py-2 text-white ">
           I currently work in the public sector, where I’m responsible for
           managing and maintaining the website. I have a good knowledge of WCAG
           2.1, experience in using CMS Drupal, HTML, CSS, Javascript, Jira,
