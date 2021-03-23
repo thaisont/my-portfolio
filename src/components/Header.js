@@ -32,7 +32,7 @@ const Header = () => {
 
   if (showMenu) {
     menu = (
-      <div className="absolute top-16 right-0 w-full h-1/5 z-50 bg-white shadow">
+      <div className="absolute top-16 right-0 w-full h-2/5 z-50 bg-white shadow">
         <ul className="text-base flex flex-col items-center p-4 gap-4 ">
           <a href="#aboutMe">
             <button className="hover:text-blue-900 tracking-wide">
