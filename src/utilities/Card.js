@@ -1,5 +1,4 @@
 import React from "react";
-import inn from "../logo_INN.jpg";
 
 const Card = ({ children, link, img, button }) => {
   //
