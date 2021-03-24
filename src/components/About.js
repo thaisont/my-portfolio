@@ -34,8 +34,8 @@ function About() {
             <ul class="text-tertiary">
               <li>WCAG 2.1</li>
               <li>Jira</li>
-              <li>Agile</li>
-              <li>Waterfall</li>
+              <li>Figma</li>
+              <li>Storybook</li>
               <li>CMS - Drupal</li>
             </ul>
           </div>

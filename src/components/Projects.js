@@ -25,9 +25,10 @@ const Projects = () => {
                 href="https://rawg.io/apidocs"
               >
                 {" "}
-                video games database API
+                video games database
               </a>{" "}
-              and Google Maps API to display the location.
+              and Google Maps API. This was built during my General Assembly
+              course.
             </p>
           </Card>
           <Card link="https://thaisont.github.io/URL-API/" img={shortly}>
