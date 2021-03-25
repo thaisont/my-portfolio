@@ -65,7 +65,7 @@ const Projects = () => {
               .
             </p>
             <a
-              href="https://zen-goodall-6f75bd.netlify.app/"
+              href="https://practical-curran-3f23aa.netlify.app/"
               rel="noreferrer"
               target="_blank"
             >
