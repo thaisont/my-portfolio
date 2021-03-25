@@ -9,7 +9,7 @@ function Blogs() {
       <h2 id="blogs" className="text-3xl font-bold p-6 text-white">
         Blog
       </h2>
-      <p className="mb-8 text-white">
+      <p className="mb-8 px-2 text-white">
         Below are a few blogs post around my journey as a self-taught developer
       </p>
 
