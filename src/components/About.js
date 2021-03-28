@@ -7,9 +7,7 @@ function About() {
         </h2>
         <p className=" py-2 text-white ">
           Enthusiastic self-taught front end developer with a focus on building
-          robust and accessible interfaces. I am knowledgeable in HTML, CSS,
-          JavaScript, React and Drupal, with a passion to build web applications
-          and learning new technologies.
+          robust and accessible interfaces.
         </p>
       </section>
       <section className=" max-w-3xl relative -inset-y-12 m-auto mb-6 container ">

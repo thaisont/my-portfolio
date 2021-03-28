@@ -10,7 +10,7 @@ function Blogs() {
         Blog
       </h2>
       <p className="mb-8 px-2 text-white">
-        Below are a few blogs post around my journey as a self-taught developer
+        Below are a few blogs post around my journey as a front end developer.
       </p>
 
       <div className="container max-w-3xl m-auto gap-x-8 pb-4">

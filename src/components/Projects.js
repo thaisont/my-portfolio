@@ -13,7 +13,7 @@ const Projects = () => {
         Personal projects
       </h2>
       <p className="mb-8 text-tertiary">
-        Below are a few projects I've worked on
+        Below are a few projects I've worked on.
       </p>
       <div className="container max-w-screen-md ">
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
@@ -21,7 +21,7 @@ const Projects = () => {
             <p className="py-2 text-tertiary">
               A games review website using a
               <a
-                className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600"
+                className="text-blue-600 hover:text-blue-800 visited:text-purple-600"
                 href="https://rawg.io/apidocs"
               >
                 {" "}
@@ -35,7 +35,7 @@ const Projects = () => {
             <p className="py-2 text-tertiary">
               A URL shortening API landing page, using the
               <a
-                className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600"
+                className="text-blue-600 hover:text-blue-800 visited:text-purple-600"
                 href="https://app.shrtco.de/"
               >
                 {" "}
@@ -56,7 +56,7 @@ const Projects = () => {
               A weather app page that gives you the weather of a location. This
               was built using the{" "}
               <a
-                className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600"
+                className="text-blue-600 hover:text-blue-800 visited:text-purple-600"
                 href="https://developer.accuweather.com/apis"
               >
                 {" "}
@@ -69,7 +69,7 @@ const Projects = () => {
               rel="noreferrer"
               target="_blank"
             >
-              <button className="py-2 px-8 bg-primary rounded-md text-white hover:bg-green-700 transition ease-in">
+              <button className="py-2 px-8 font-medium bg-primary rounded-md text-white hover:bg-blue-600 transition ease-in">
                 Live site
               </button>
             </a>

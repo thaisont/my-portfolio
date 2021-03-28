@@ -32,7 +32,7 @@ const Header = () => {
 
   if (showMenu) {
     menu = (
-      <div className="absolute top-16 right-0 w-full h-2/5 z-50 bg-white shadow">
+      <div className="absolute top-16 right-0 w-full z-50 bg-white shadow">
         <ul className="text-base flex flex-col items-center p-4 gap-4 ">
           <a href="#aboutMe">
             <button className="hover:text-blue-900 tracking-wide">
@@ -58,7 +58,7 @@ const Header = () => {
   }
 
   return (
-    <header className="shadow-md p-4 mb-8">
+    <header className="shadow-md p-4 mb-8 sticky top-0 bg-white z-50 ">
       <div className=" max-w-screen-xlnpm container mx-auto flex justify-between items-center">
         <a href="/">
           <img

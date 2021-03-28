@@ -7,7 +7,7 @@ const Card = ({ children, link, img, button }) => {
       <img src={img} alt="" className="w-auto h-8 m-auto" />
       {children}
       <a href={link} rel="noreferrer" target="_blank">
-        <button className="py-2 px-8 bg-primary rounded-md text-white hover:bg-green-700 transition ease-in">
+        <button className="py-2 px-8 font-medium bg-primary rounded-md text-white hover:bg-blue-600 transition ease-in">
           Live site
         </button>
       </a>

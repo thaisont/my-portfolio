@@ -1,5 +1,5 @@
 import React from "react";
-import profile from "../profile.jpeg";
+import profile from "../img-thai.png";
 
 const Banner = () => {
   return (
@@ -7,7 +7,7 @@ const Banner = () => {
       <img
         src={profile}
         alt="Portait of myself"
-        className="m-auto  rounded-full   "
+        className="m-auto  max-w-xs "
       />
       <section className="flex flex-col text-center mb-6">
         <h1 className="text-5xl font-medium pt-8 pb-2 text-secondary  ">
