@@ -5,11 +5,8 @@ import Card from "../utilities/Card";
 
 const Projects = () => {
   return (
-    <section className="text-center pb-16  ">
-      <h2
-        id="personalProjects"
-        className=" text-3xl font-bold p-6 text-secondary"
-      >
+    <section id="personalProjects" className="text-center pb-16  ">
+      <h2 className=" text-3xl font-bold p-6 text-secondary">
         Personal projects
       </h2>
       <p className="mb-8 text-tertiary">

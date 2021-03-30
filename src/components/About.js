@@ -1,8 +1,11 @@
 function About() {
   return (
     <div>
-      <section className="bg-primary p-6  text-center py-24 px-12 md:px-32 lg:px-72 xl:px-80">
-        <h2 id="aboutMe" className="py-2 text-3xl font-bold text-white">
+      <section
+        id="aboutMe"
+        className="bg-primary p-6  text-center py-24 px-12 md:px-32 lg:px-72 xl:px-80"
+      >
+        <h2 className="py-2 text-3xl font-bold text-white">
           Welcome to my website
         </h2>
         <p className=" py-2 text-white ">

@@ -5,10 +5,8 @@ import journey from "../Front-end-developer-image.png";
 
 function Blogs() {
   return (
-    <section className="text-center bg-primary mb-16">
-      <h2 id="blogs" className="text-3xl font-bold p-6 text-white">
-        Blog
-      </h2>
+    <section id="blogs" className="text-center bg-primary mb-16">
+      <h2 className="text-3xl font-bold p-6 text-white">Blog</h2>
       <p className="mb-8 px-2 text-white">
         Below are a few blogs post around my journey as a front end developer.
       </p>
