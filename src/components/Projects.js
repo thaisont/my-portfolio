@@ -1,20 +1,24 @@
 import shortly from "../logo.svg";
 import inn from "../logo_INN.jpg";
 import ttruong from "../TTRUONG-black.png";
+import fitivity from "../fitivity.png";
 import Card from "../utilities/Card";
 
 const Projects = () => {
   return (
     <section id="personalProjects" className="text-center pb-16  ">
-      <h2 className=" text-3xl font-bold p-6 text-secondary">
-        Personal projects
-      </h2>
-      <p className="mb-8 text-tertiary">
-        Below are a few projects I've worked on.
-      </p>
+      <h2 className=" text-3xl font-bold p-6 text-secondary">Personal projects</h2>
+      <p className="mb-8 text-tertiary">Below are a few projects I've worked on.</p>
       <div className="container max-w-screen-md ">
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-          <Card link="https://kind-mcnulty-cfb64c.netlify.app/" img={inn}>
+          <Card link="/" img={fitivity} live="In progress">
+            <p className="py-2 text-tertiary">
+              Fitness well-being website that allows users to book activities. This was built using
+              React, Next.js, Typescript and styled with Tailwind
+            </p>
+          </Card>
+
+          <Card link="https://kind-mcnulty-cfb64c.netlify.app/" img={inn} live="Live site">
             <p className="py-2 text-tertiary">
               A games review website using a
               <a
@@ -24,11 +28,10 @@ const Projects = () => {
                 {" "}
                 video games database
               </a>{" "}
-              and Google Maps API. This was built during my General Assembly
-              course.
+              and Google Maps API. This was built during my General Assembly course.
             </p>
           </Card>
-          <Card link="https://thaisont.github.io/URL-API/" img={shortly}>
+          <Card link="https://thaisont.github.io/URL-API/" img={shortly} live="Live site">
             <p className="py-2 text-tertiary">
               A URL shortening API landing page, using the
               <a
@@ -41,17 +44,15 @@ const Projects = () => {
               . This site was built using SCSS, HTML and Javascript.
             </p>
           </Card>
-          <Card link="/" img={ttruong}>
+          <Card link="/" img={ttruong} live="Live site">
             <p className="py-2 text-tertiary">
-              My personal portfolio website built using React and styled with
-              Tailwind CSS.
+              My personal portfolio website built using React and styled with Tailwind CSS.
             </p>
           </Card>
           <div className="box shadow rounded-md bg-white p-8 border border-gray-100 flex-1">
             <h2 className="text-2xl text-gray-800 font-medium">Weather app</h2>
             <p className="py-2 text-tertiary">
-              A weather app page that gives you the weather of a location. This
-              was built using the{" "}
+              A weather app page that gives you the weather of a location. This was built using the{" "}
               <a
                 className="text-blue-600 hover:text-blue-800 visited:text-purple-600"
                 href="https://developer.accuweather.com/apis"
@@ -61,11 +62,7 @@ const Projects = () => {
               </a>
               .
             </p>
-            <a
-              href="https://practical-curran-3f23aa.netlify.app/"
-              rel="noreferrer"
-              target="_blank"
-            >
+            <a href="https://practical-curran-3f23aa.netlify.app/" rel="noreferrer" target="_blank">
               <button className="py-2 px-8 font-medium bg-primary rounded-md text-white hover:bg-blue-600 transition ease-in">
                 Live site
               </button>
