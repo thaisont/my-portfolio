@@ -13,8 +13,8 @@ const Projects = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
           <Card link="/" img={fitivity} live="In progress">
             <p className="py-2 text-tertiary">
-              Fitness well being website that allows users to book activities. This is built using
-              React, Next.js, Typescript and styled with Tailwind
+              Fitness well being is a website that allows users to book activities. This is built
+              using React, Next.js, Typescript and styled with Tailwind
             </p>
           </Card>
 
