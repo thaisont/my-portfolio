@@ -9,7 +9,7 @@ const Projects = () => {
     <section id="personalProjects" className="text-center pb-16  ">
       <h2 className=" text-3xl font-bold p-6 text-secondary">Personal projects</h2>
       <p className="mb-8 text-tertiary">Below are a few projects I've worked on.</p>
-      <div className="container max-w-screen-md ">
+      <div className="container max-w-screen-md m-auto ">
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
           <Card link="/" img={fitivity} live="In progress">
             <p className="py-2 text-tertiary">
