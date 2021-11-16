@@ -1,5 +1,3 @@
-import cv from "../resume-thai.pdf";
-
 function Contact() {
   return (
     <section id="contactMe" className="text-center mb-8">
